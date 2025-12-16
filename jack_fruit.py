@@ -4,8 +4,8 @@ from flask import Flask,request,jsonify
 from flask_cors import CORS 
 
 
-client_id = 'efc5dfef0f4843fbbd4135e68fc31b14'
-client_secret = 'a4d0428499034e829c98bda2aaf2b968'
+client_id = 'client_id'
+client_secret = 'client_secret'
 
 auth_str = f"{client_id}:{client_secret}"
 b64_auth_str = base64.b64encode(auth_str.encode()).decode()
